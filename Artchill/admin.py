@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import Canva
+from .models import Canvas, Track
 
 # Register your models here.
-admin.site.register(Canva)
+admin.site.register(Canvas)
+admin.site.register(Track)
+
