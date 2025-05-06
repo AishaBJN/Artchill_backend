@@ -21,11 +21,10 @@ class Track(models.Model):
     def __str__(self):
         return f"{self.title} by {self.artist}"
 
+class Notes(models.Model):
+    content = models.TextField(max_length=500,blank=False)
 
-class Note(models.Model):
 
-    canvas = models.ForeignKey(Canvas, on_delete=models.CASCADE)
-    content = models.TextField(max_length=200)
 
 
 
