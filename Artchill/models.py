@@ -1,5 +1,4 @@
 from django.db import models
-from django.contrib.auth.models import User
 from django.core.files.base import ContentFile
 import base64
 
@@ -8,6 +7,7 @@ class Canvas(models.Model):
     title = models.CharField(max_length=50, default="Untitled")
     create_at = models.DateField(auto_now_add=True)
     image_data = models.TextField(default="")
+
 
     
     def __str__(self):
