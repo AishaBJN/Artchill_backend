@@ -28,14 +28,15 @@ you can also type some notes for your drawing, and the best part you can listeni
 | GET    |/api/drawings                         | get all drawing     |
 |        |/api/drawings/:drawid                 | get one drawing     |
 | DELETE |/api/drawings/:drawid                 | delete a drawing    |
+|        |/api/notes/:noteId                    | delere a note       |
 
 ### Client:-
-| Page        | URL                 | Description                                      |
-|-------------|---------------------|--------------------------------------------------|
-|Home         |  /home              | main page includes canva - music player - toolbar|
-|DrawingList  | /drawings           | shows all user's drawings                        |
-|DrawingDetail| /drawings/:drawid   | shows one drawing details                        |
-|NotesList    | /notes              | shows notes                                      | 
+| Page        | URL                 | Description                                            |
+|-------------|---------------------|--------------------------------------------------------|
+|Home         |  /home              | main page includes canvas - music player - toolbar-notes|
+|DrawingList  | /drawings           | shows all user's drawings                              |
+|DrawingDetail| /drawings/:drawid   | shows one drawing details                              |
+|NotesList    | /notes              | shows notes                                            | 
 
 
 
@@ -53,7 +54,7 @@ in your powershell or CLI
 ## IceBox Features
 - let user update his saving drawings 
 - delete Note module and add it to the canvas module 
-- saved the track that user upload to the website 
+- saved the track that user upload to the website and delete it 
 - user authentication 
 
 
