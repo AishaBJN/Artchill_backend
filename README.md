@@ -11,7 +11,34 @@ you can also type some notes for your drawing, and the best part you can listeni
 - Corsheaders
 
 ## Repo Link
-[backend repo](https://git.generalassemb.ly/aishabajandouh/Artchill_backend)
+[frontend repo](https://git.generalassemb.ly/aishabajandouh/Artchill_frontend)
+
+## ERD 
+![ERD](img/ERD.png)
+
+
+
+## Routing Table
+### Server:-
+
+| Method | URL                                  | Description         |
+|--------|--------------------------------------|---------------------|
+| POST   |/api/drawings/                        | to save drawing     |
+|        |/api/notes                            | to save note        |
+| GET    |/api/drawings                         | get all drawing     |
+|        |/api/drawings/:drawid                 | get one drawing     |
+| DELETE |/api/drawings/:drawid                 | delete a drawing    |
+
+### Client:-
+| Page        | URL                 | Description                                      |
+|-------------|---------------------|--------------------------------------------------|
+|Home         |  /home              | main page includes canva - music player - toolbar|
+|DrawingList  | /drawings           | shows all user's drawings                        |
+|DrawingDetail| /drawings/:drawid   | shows one drawing details                        |
+|NotesList    | /notes              | shows notes                                      | 
+
+
+
 
 ## Installation Instructions
 in your powershell or CLI 
@@ -22,8 +49,6 @@ in your powershell or CLI
 - Windows: `python manage.py runserver` 
 - Mac: `python3 manage.py runserver`
 
-## ERD 
-![ERD](img/ERD.png)
 
 ## IceBox Features
 - let user update his saving drawings 
