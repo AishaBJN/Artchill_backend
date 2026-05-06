@@ -11,7 +11,7 @@ you can also type some notes for your drawing, and the best part you can listeni
 - Corsheaders
 
 ## Repo Link
-[frontend repo](https://git.generalassemb.ly/aishabajandouh/Artchill_frontend)
+[frontend repo](https://github.com/AishaBJN/Artchill_frontend)
 
 ## ERD 
 ![ERD](img/ERD.png)
